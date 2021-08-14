@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="300dp">
+
+    <TextView
+        android:id="@+id/textVoteAverage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="156dp"
+        android:text="TextView"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="156dp"
+        android:text="TextView"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <TextView
+            android:id="@+id/textOverView"
+            style="@android:style/Widget.DeviceDefault.TextView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ellipsize="start"
+            android:freezesText="false"
+            android:gravity="center"
+            android:longClickable="false"
+            android:singleLine="false"
+            android:text="cxzcdcxzcvds4t5gjrioeghjoirhgedrfhgfidhg08htg5reghios[diofgsdht849tuy498hditosnglj;sdjnfgdsajifrtsaf'jk'dshgriuoe[gt08ew[fjpiodsgfdsgdsfgfddmskvkls;nmvigoerwjfgirewhgi[owehfoew[ghiwefnhioew[hftiew[fjnwsngkls'"
+            android:textAlignment="gravity"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+            android:textScaleX="1"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            android:typeface="normal"
+            tools:layout_editor_absoluteY="16dp" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
